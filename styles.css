@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+#game {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#metrics, #timeline {
+    margin-top: 20px;
+}
+
+#scene {
+    margin-top: 20px;
+}
+
+#options button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    font-size: 14px;
+}
