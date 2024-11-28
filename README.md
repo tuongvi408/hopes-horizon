@@ -1,121 +1,91 @@
-### **Game Overview**:
+### **Game Overview:**
 
-The game is a **turn-based strategy game** where the player takes on the role of one of three characters in a fictional country. Each turn represents **6 months**, and the player will make decisions that affect various aspects of the country (economy, happiness, trust, debt, etc.) as well as their own personal wealth. The goal is to achieve a personal or national goal based on the chosen role.
+**Game Name**: **Hope's Horizon**
+
+#### **Game Concept:**
+In **Hope's Horizon**, players take on the role of one of three key figures in a fictional country. They must make important decisions that influence both their personal success and the well-being of the nation. The game is a **turn-based simulation** where each turn represents **6 months**, and each decision made impacts core aspects like **Trust**, **Wealth**, and **Happiness**.
+
+The goal of the game is to make strategic choices to either **become a successful leader** or **maximize personal wealth**—while balancing the needs of the population. The game has a **limited playtime** of **8 turns** (representing **4 years**), and the final outcome depends on how well the player navigates their role and the various challenges presented throughout the game.
 
 ---
 
-### **1. Roles**:
+### **Core Metrics**:
+1. **Trust**: Represents the public’s opinion of the player. High trust is essential for **election/re-election** (President), **community support** (Governor), and a **strong reputation** (Businessman). Trust is directly influenced by decisions that affect the public good.
+   - **Increases**: With decisions that benefit society (e.g., social welfare, job creation).
+   - **Decreases**: With decisions that prioritize personal gain over public interest (e.g., neglecting infrastructure, ignoring public welfare).
 
-There are **three roles** the player can choose from:
+2. **Wealth**: A combined measure of **national wealth** (for President/Governor) and **personal wealth** (for Businessman). Wealth is the primary resource for funding policies, investments, and personal endeavors.
+   - **Increases**: With profitable decisions (e.g., tax cuts, business investments, military spending).
+   - **Decreases**: With costly decisions (e.g., social welfare programs, international aid, environmental protection efforts).
+
+3. **Happiness**: Represents the public’s overall well-being. Happiness is critical for public support and the success of the player's leadership. Low happiness leads to **decreased trust** and potential failure.
+   - **Increases**: When policies improve the lives of the population (e.g., healthcare, education, fair wages).
+   - **Decreases**: When decisions negatively impact public welfare (e.g., tax increases, business prioritization over social needs).
+
+---
+
+### **Roles in the Game**:
+Players can choose from **three distinct roles**, each with their own set of responsibilities and goals:
 
 1. **President**:
-   - The President is the leader of the country.
-   - **Goal**: Get re-elected and create a lasting international reputation.
-   - **Decisions**: Make national policies affecting the economy, society, and international relations.
+   - **Description**: As the head of the nation, the President must make national decisions, including managing the economy, public welfare, and foreign relations. The President's **main goal** is to secure re-election while maintaining a healthy economy and happy population.
+   - **Objectives**: Get re-elected and leave a lasting legacy. High **Trust** and **Happiness** are necessary for a successful re-election.
+   - **Scenarios**: The President deals with national crises, economic policies, public welfare, and international diplomacy.
+   - **Winning Condition**: Re-elected with high **Trust** (over 70%) and **Happiness** (over 60%).
 
 2. **Governor**:
-   - The Governor governs a specific region within the country.
-   - **Goal**: Serve as Governor and prepare to run for President.
-   - **Decisions**: Manage local issues and suggest policies to the President.
+   - **Description**: The Governor manages a region of the country. Their role focuses on improving the local economy, managing public services, and preparing to run for the national office.
+   - **Objectives**: Gain **local support** and manage the region’s well-being while working towards the possibility of becoming President.
+   - **Scenarios**: The Governor faces local issues such as unemployment, infrastructure improvements, social programs, and political pressure.
+   - **Winning Condition**: Successfully gain public support and run for **President** after 8 turns.
 
 3. **Businessman**:
-   - The Businessman is a wealthy individual representing the business class.
-   - **Goal**: Build personal wealth and decide whether to focus on personal profits or social responsibility.
-   - **Decisions**: Invest in businesses, lobby for tax cuts, or take actions that affect society.
+   - **Description**: The Businessman is a wealthy individual with significant influence in the economy. Their focus is on increasing personal wealth while navigating the social and political challenges of the country.
+   - **Objectives**: Maximize **personal wealth** while balancing the need for **social responsibility**. The Businessman must decide whether to prioritize profits or public welfare.
+   - **Scenarios**: The Businessman deals with issues like tax relief, market expansion, public relations, and labor relations.
+   - **Winning Condition**: Achieve high personal **Wealth** (over $500k) and maintain a balanced **Happiness** score (over 60).
 
 ---
 
-### **2. Game Mechanics**:
-
-#### **Metrics**:
-
-The game revolves around the following metrics that represent the status of the country and the player's role:
-
-- **Trust**: The public's trust in the player. It can be affected by decisions regarding policies and public welfare.
-- **Economy**: The national economy, affected by policies, trade deals, and investments.
-- **Happiness**: The general happiness of the population, which can be influenced by the player's decisions.
-- **Debt**: The national debt. Can increase with overspending or decrease with fiscal responsibility.
-- **Money**: The player's personal wealth. For the President and Governor, it may reflect their public salary, investments, or bribes. For the Businessman, it's directly tied to their investments and business decisions.
-- **Tax Rate**: The percentage of income tax. Changing it affects the economy and public happiness.
+### **Game Mechanics**:
 
 #### **Game Flow**:
+1. **Role Selection**: The player selects one of three roles: **President**, **Governor**, or **Businessman**.
+2. **Turn-Based Gameplay**: Each **turn** represents **6 months**. The player makes **one decision per turn** that affects the country's economy, the public's happiness, and their personal wealth.
+3. **Scenario System**: After each turn, the player is presented with a **randomized scenario** based on their role, which includes different decisions that influence the core metrics (**Trust**, **Wealth**, **Happiness**).
+4. **Decision Impact**: The decisions made by the player will directly impact the three core metrics. For example, the President may choose to increase military spending, which will increase **Wealth** but decrease **Happiness**.
+5. **Game End**: After **8 turns** (4 years), the game ends. Players are evaluated based on the state of their metrics and whether they met their goals:
+   - **President**: Re-election or legacy success.
+   - **Governor**: Local popularity and potential presidential run.
+   - **Businessman**: Personal wealth and social responsibility balance.
 
-1. **Game Start**: The player selects one of the three roles.
-2. **Scenario Presentation**: Each role has a series of **scenarios** (based on events in the country). These scenarios present the player with options, and each choice affects the game metrics.
-3. **Decision Making**: The player must make decisions, which impact the metrics (e.g., raising taxes, investing in welfare, etc.).
-4. **Timeline**: The game progresses in **turns**, with each turn representing **6 months**.
-   - After each turn, the player’s decisions and the country’s status are updated, and a new scenario is presented.
-5. **End Game**: After **8 turns** (representing **4 years**), the game ends and the player's final status is evaluated.
-
----
-
-### **3. Scenarios**:
-
-Each role has its own set of scenarios, which involve key decisions that affect the metrics. Let's break down a few example scenarios for each role:
-
-#### **President**:
-1. **Scenario**: *The economy is facing a downturn. What do you do?*
-   - **Option 1**: Cut taxes to stimulate growth (-$10k, trust +10)
-   - **Option 2**: Invest in social welfare programs (-$5k, happiness +10)
-   - **Option 3**: Increase military spending (-$10k, economy +5)
-
-2. **Scenario**: *A neighboring country offers a trade deal. Do you accept?*
-   - **Option 1**: Accept the trade deal (economy +10, trust +5)
-   - **Option 2**: Decline the deal (trust -5, economy unchanged)
-   - **Option 3**: Negotiate for better terms (trust +10, debt +10)
-
-#### **Governor**:
-1. **Scenario**: *The community demands improved infrastructure. How do you respond?*
-   - **Option 1**: Lobby the President to raise taxes (trust -5, national budget +10)
-   - **Option 2**: Use existing funds for infrastructure (national budget -20)
-   - **Option 3**: Ignore the demand (community support -10)
-
-2. **Scenario**: *A local business requests tax relief to expand operations. What do you do?*
-   - **Option 1**: Grant the relief (community support +10, national budget -15)
-   - **Option 2**: Deny the request (community support -5, trust +5)
-   - **Option 3**: Negotiate a partial relief (community support +5, national budget -5)
-
-#### **Businessman**:
-1. **Scenario**: *The government is planning to reduce welfare programs. What do you do?*
-   - **Option 1**: Support the cuts to save personal wealth (+$50k, happiness -10)
-   - **Option 2**: Protest to save the welfare programs (happiness +10, personal wealth -$50k)
-
-2. **Scenario**: *A new luxury development is planned in your area. Do you invest?*
-   - **Option 1**: Invest in the development (+$100k, social responsibility -5)
-   - **Option 2**: Advocate for affordable housing (happiness +10, social responsibility +10)
-
----
-
-### **4. Scenario Flow**:
-
-- **Each Role's Scenario Set**: Every time a role is selected, the player is presented with scenarios relevant to that role.
-- **Randomness**: The scenarios for each role can be randomized, so the game doesn’t play the same way every time.
-- **Decision Impact**: Each decision has consequences on the **metrics** (e.g., trust, happiness, economy), and future scenarios can be affected by the player's previous choices.
+#### **Metric Interactions**:
+- **Trust ↔ Happiness**: Low trust leads to low happiness, and vice versa.
+- **Wealth ↔ Happiness**: Wealth affects happiness, but if wealth is gained at the expense of public well-being, happiness will decrease.
+- **Wealth ↔ Trust**: Wealth generation (e.g., through taxes, investments, or business growth) can improve trust, especially if the wealth benefits the population.
   
 ---
 
-### **5. Ending Conditions**:
+### **Winning Conditions**:
 
-- **Game Ends after 8 Turns**: After 8 turns (representing 4 years of the player’s time in power), the game ends.
-- **Game End Evaluation**:
-  - **For President**: The player’s goal could be to **get re-elected** or **leave a lasting legacy**.
-  - **For Governor**: The player’s goal could be to **run for President** and gain enough support.
-  - **For Businessman**: The goal could be to **maximize personal wealth** or balance wealth with **social responsibility**.
+1. **For the President**:
+   - **Re-election**: The President needs high **Trust** and **Happiness** to get re-elected. A low **Trust** or **Happiness** score means they will lose the election.
+   - **Legacy**: Leave behind a strong national economy and a high public opinion.
 
----
+2. **For the Governor**:
+   - **Local Popularity**: The Governor must gain enough **Trust** and **Happiness** from their region to run for **President** after the 8th turn.
+   - **President Run**: After 8 turns, the Governor should have enough **support** to run for President successfully.
 
-### **6. Winning Conditions** (for each role):
-
-- **President**:
-  - **Goal**: To be re-elected or retire with a great legacy.
-  - **Winning Outcome**: Re-election with a high public trust, low debt, and strong economy.
-  
-- **Governor**:
-  - **Goal**: Gain public support and prepare to run for President.
-  - **Winning Outcome**: Gaining enough support to run for President and win the election.
-
-- **Businessman**:
-  - **Goal**: Achieve financial success or help society.
-  - **Winning Outcome**: High wealth, possibly with a balance between personal wealth and social responsibility.
+3. **For the Businessman**:
+   - **Wealth**: The Businessman needs to maximize **personal wealth** while balancing it with **social responsibility**.
+   - **Balance**: Achieve a high **Wealth** score (over $500k) and maintain **Happiness** (above 60).
 
 ---
+
+### **Final Game Flow Recap**:
+
+1. The player selects one of the three roles (President, Governor, or Businessman).
+2. **8 turns** of decisions follow, each turn representing 6 months.
+3. **Scenarios** are presented, and the player chooses decisions that affect **Trust**, **Wealth**, and **Happiness**.
+4. The game ends after **8 turns** (4 years). The player's success is evaluated based on their role's goals and the state of the three core metrics.
+
