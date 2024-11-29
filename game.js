@@ -1,4 +1,5 @@
 let currentRole = '';
+let currentScenarioIndex = 0;
 let wealth = 0;
 let happiness = 50;  // Initial happiness set to 50
 let trust = 50;  // Initial trust set to 50
@@ -20,10 +21,10 @@ document.getElementById('next-month-btn').addEventListener('click', () => {
         const randomIndex = Math.floor(Math.random() * scenarios.length);
         const scenario = scenarios.splice(randomIndex, 1)[0];  // Remove the chosen scenario from the pool
 
-        // Update the scenario
+        // Update the scenario text
         document.getElementById('scenario').textContent = scenario.text;
 
-        // Set option buttons text
+        // Set option buttons text and event handlers
         scenario.options.forEach((option, index) => {
             const button = document.querySelectorAll('.option-btn')[index];
             button.textContent = option.text;
@@ -78,7 +79,7 @@ function showScenario() {
         // Display the scenario
         document.getElementById('scenario').textContent = scenario.text;
 
-        // Set option buttons text
+        // Set option buttons text and event handlers
         scenario.options.forEach((option, index) => {
             const button = document.querySelectorAll('.option-btn')[index];
             button.textContent = option.text;

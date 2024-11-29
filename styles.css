@@ -1,93 +1,44 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
-    color: #333;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9;
 }
 
 #game-container {
-    max-width: 800px;
+    width: 60%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    text-align: center;
 }
 
-#role-selection button {
+#role-selection button,
+#gameplay button {
     width: 100%;
-    padding: 15px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    cursor: pointer;
+    padding: 10px;
+    margin: 5px 0;
     background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-#role-selection button:hover {
+#role-selection button:hover,
+#gameplay button:hover {
     background-color: #45a049;
 }
 
-#gameplay {
+#game-status {
     text-align: center;
-}
-
-#metrics p {
-    font-size: 1.2rem;
-    margin: 5px 0;
-}
-
-#scenario {
-    margin: 20px 0;
-    font-size: 1.4rem;
-}
-
-#options .option-btn {
-    width: 80%;
-    padding: 10px;
-    font-size: 1.2rem;
-    margin: 10px 0;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
-#options .option-btn:hover {
-    background-color: #0056b3;
-}
-
-#next-month-btn {
-    padding: 10px;
-    font-size: 1.2rem;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#next-month-btn:hover {
-    background-color: #218838;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.1rem;
+    font-size: 18px;
+    color: #d9534f;
     font-weight: bold;
 }
