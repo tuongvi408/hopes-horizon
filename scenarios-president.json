@@ -84,6 +84,176 @@
           "effects": { "wealth": 15, "happiness": -10, "trust": -5 }
         }
       ]
-    }
+    },
+    {
+      "text": "You are considering signing a trade deal with a country known for its human rights violations. What do you do?",
+      "options": [
+        {
+          "text": "Sign the deal for economic gain (wealth +20, happiness -10, trust -5)",
+          "effects": { "wealth": 20, "happiness": -10, "trust": -5 }
+        },
+        {
+          "text": "Reject the deal to maintain ethical standards (wealth -10, happiness +15, trust +10)",
+          "effects": { "wealth": -10, "happiness": 15, "trust": 10 }
+        },
+        {
+          "text": "Delay the decision for further negotiations (wealth +5, happiness +5, trust +5)",
+          "effects": { "wealth": 5, "happiness": 5, "trust": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A large tech company proposes to build a massive AI-based infrastructure that could replace many jobs. How do you respond?",
+      "options": [
+        {
+          "text": "Support the project for economic growth (wealth +10, happiness -10, trust -5)",
+          "effects": { "wealth": 10, "happiness": -10, "trust": -5 }
+        },
+        {
+          "text": "Oppose the project to protect human jobs (wealth -5, happiness +15, trust +10)",
+          "effects": { "wealth": -5, "happiness": 15, "trust": 10 }
+        },
+        {
+          "text": "Encourage hybrid solutions to balance jobs and technology (wealth +5, happiness +5, trust +5)",
+          "effects": { "wealth": 5, "happiness": 5, "trust": 5 }
+        }
+      ]
+    },
+    {
+      "text": "Your government is criticized for not addressing climate change adequately. How do you respond?",
+      "options": [
+        {
+          "text": "Pass aggressive environmental regulations (wealth -15, happiness +20, trust +10)",
+          "effects": { "wealth": -15, "happiness": 20, "trust": 10 }
+        },
+        {
+          "text": "Invest in green technology without strict regulations (wealth -5, happiness +10, trust +5)",
+          "effects": { "wealth": -5, "happiness": 10, "trust": 5 }
+        },
+        {
+          "text": "Delay climate action due to economic concerns (wealth +10, happiness -10, trust -5)",
+          "effects": { "wealth": 10, "happiness": -10, "trust": -5 }
+        }
+      ]
+    },
+    {
+      "text": "Your country has been criticized for its handling of illegal immigration. What is your approach?",
+      "options": [
+        {
+          "text": "Tighten immigration laws and enforcement (wealth +10, happiness -5, trust -10)",
+          "effects": { "wealth": 10, "happiness": -5, "trust": -10 }
+        },
+        {
+          "text": "Provide pathways to citizenship for immigrants (wealth -10, happiness +20, trust +15)",
+          "effects": { "wealth": -10, "happiness": 20, "trust": 15 }
+        },
+        {
+          "text": "Increase support for illegal immigrants without offering citizenship (wealth -5, happiness +10, trust +5)",
+          "effects": { "wealth": -5, "happiness": 10, "trust": 5 }
+        }
+      ]
+    },
+    {
+      "text": "The economy is showing signs of recession. How do you respond?",
+      "options": [
+        {
+          "text": "Stimulate the economy with massive public spending (wealth -20, happiness +15, trust +10)",
+          "effects": { "wealth": -20, "happiness": 15, "trust": 10 }
+        },
+        {
+          "text": "Cut spending to reduce debt (wealth +10, happiness -10, trust -5)",
+          "effects": { "wealth": 10, "happiness": -10, "trust": -5 }
+        },
+        {
+          "text": "Focus on attracting foreign investment (wealth +15, happiness -5, trust +5)",
+          "effects": { "wealth": 15, "happiness": -5, "trust": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A new international law has passed that requires your country to accept more refugees. How do you respond?",
+      "options": [
+        {
+          "text": "Accept the refugees and provide full support (wealth -10, happiness +15, trust +5)",
+          "effects": { "wealth": -10, "happiness": 15, "trust": 5 }
+        },
+        {
+          "text": "Accept the refugees but limit their benefits (wealth -5, happiness +5, trust +10)",
+          "effects": { "wealth": -5, "happiness": 5, "trust": 10 }
+        },
+        {
+          "text": "Reject the refugees to maintain national security (wealth +15, happiness -10, trust -15)",
+          "effects": { "wealth": 15, "happiness": -10, "trust": -15 }
+        }
+      ]
+    },
+    {
+      "text": "You’re facing a trade war with another country. What’s your approach?",
+      "options": [
+        {
+          "text": "Impose tariffs to protect local industries (wealth +10, happiness -5, trust -5)",
+          "effects": { "wealth": 10, "happiness": -5, "trust": -5 }
+        },
+        {
+          "text": "Negotiate a trade deal to reduce tariffs (wealth -5, happiness +10, trust +15)",
+          "effects": { "wealth": -5, "happiness": 10, "trust": 15 }
+        },
+        {
+          "text": "Escalate the trade war to assert dominance (wealth +20, happiness -15, trust -10)",
+          "effects": { "wealth": 20, "happiness": -15, "trust": -10 }
+        }
+      ]
+    },
+	{
+	  "text": "You’re facing a trade war with another country. What’s your approach?",
+	  "options": [
+		{
+		  "text": "Impose tariffs to protect local industries (wealth +10, happiness -5, trust -5)",
+		  "effects": { "wealth": 10, "happiness": -5, "trust": -5 }
+		},
+		{
+		  "text": "Negotiate a trade deal to reduce tariffs (wealth -5, happiness +10, trust +15)",
+		  "effects": { "wealth": -5, "happiness": 10, "trust": 15 }
+		},
+		{
+		  "text": "Escalate the trade war to assert dominance (wealth +20, happiness -15, trust -10)",
+		  "effects": { "wealth": 20, "happiness": -15, "trust": -10 }
+		}
+	  ]
+	},
+	{
+	  "text": "There is increasing pressure to appoint more women to leadership positions within your government. How do you respond?",
+	  "options": [
+		{
+		  "text": "Mandate gender quotas in leadership roles (wealth -10, happiness +15, trust +10)",
+		  "effects": { "wealth": -10, "happiness": 15, "trust": 10 }
+		},
+		{
+		  "text": "Encourage voluntary change with incentives for gender parity (wealth -5, happiness +10, trust +5)",
+		  "effects": { "wealth": -5, "happiness": 10, "trust": 5 }
+		},
+		{
+		  "text": "Reject the call for gender quotas and maintain the status quo (wealth +10, happiness -10, trust -5)",
+		  "effects": { "wealth": 10, "happiness": -10, "trust": -5 }
+		}
+	  ]
+	},
+	{
+	  "text": "Your government has been criticized for its lack of women in leadership positions. How do you address this issue?",
+	  "options": [
+		{
+		  "text": "Appoint more women to senior government roles (wealth -5, happiness +20, trust +10)",
+		  "effects": { "wealth": -5, "happiness": 20, "trust": 10 }
+		},
+		{
+		  "text": "Offer training and mentorship programs for women leaders (wealth -10, happiness +15, trust +5)",
+		  "effects": { "wealth": -10, "happiness": 15, "trust": 5 }
+		},
+		{
+		  "text": "Maintain the current gender balance and focus on merit-based appointments (wealth +5, happiness -10, trust -5)",
+		  "effects": { "wealth": 5, "happiness": -10, "trust": -5 }
+		}
+	  ]
+	}
   ]
 }
