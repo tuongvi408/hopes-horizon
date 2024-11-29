@@ -1,0 +1,85 @@
+{
+  "endings": [
+    {
+      "title": "The Legendary President",
+      "condition": {
+        "wealth": "> 150",
+        "happiness": "> 80",
+        "trust": "> 80"
+      },
+      "ending": "Congratulations, President! You’ve managed to create a prosperous, happy, and unified nation. Your policies have led to an unprecedented level of wealth, happiness, and trust. Citizens admire your leadership, and you will be remembered as one of the greatest presidents in history. Your legacy will inspire generations to come."
+    },
+    {
+      "title": "The Balanced Leader",
+      "condition": {
+        "wealth": "> 100 && wealth < 150",
+        "happiness": "> 50 && happiness < 80",
+        "trust": "> 50 && trust < 80"
+      },
+      "ending": "Well done, President. You've struck a decent balance between the nation's wealth, happiness, and trust. While you weren't able to make everyone entirely happy or wealthier, your leadership was fair, and the country is stable. People may not sing your praises, but they recognize your contributions. Your presidency will be seen as a period of solid growth and compromise."
+    },
+    {
+      "title": "The People’s Champion",
+      "condition": {
+        "wealth": "< 50",
+        "happiness": "> 80",
+        "trust": "> 80"
+      },
+      "ending": "You’ve prioritized the well-being of the people above all else, and your citizens love you for it. Although the economy suffered due to some of your choices, your nation is united and your approval ratings are through the roof. History will remember you as a leader who put people before profit, a president who stood for equity and fairness."
+    },
+    {
+      "title": "The Economic Titan",
+      "condition": {
+        "wealth": "> 150",
+        "happiness": "< 50",
+        "trust": "< 50"
+      },
+      "ending": "Congratulations on boosting the country’s economy, but at what cost? The people are unhappy, and trust in your leadership is at an all-time low. While your financial policies have led to significant wealth generation, your lack of empathy and disregard for public opinion has created a divided and disillusioned society. Your presidency will be remembered as a time of great prosperity for the elite but hardship for the average citizen."
+    },
+    {
+      "title": "The Authoritarian Leader",
+      "condition": {
+        "wealth": "> 150",
+        "happiness": "< 50",
+        "trust": "> 50"
+      },
+      "ending": "You have steered the country towards unprecedented wealth, but your methods were ruthless and often unpopular. Your high trust ratings indicate that you were able to maintain control over the population, perhaps through strict policies and media influence. While your financial successes cannot be denied, your legacy will be tarnished by the toll it took on the happiness of your people."
+    },
+    {
+      "title": "The Ineffective President",
+      "condition": {
+        "wealth": "< 50",
+        "happiness": "< 50",
+        "trust": "< 50"
+      },
+      "ending": "Your presidency has been a disaster. The economy is struggling, citizens are discontent, and trust in your leadership is shattered. Your inability to address the needs of the people has left the nation in a state of chaos and disrepair. Your tenure will be remembered as a time of stagnation and missed opportunities, and your presidency will be seen as one of the least effective in history."
+    },
+    {
+      "title": "The Compassionate Leader",
+      "condition": {
+        "wealth": "< 50",
+        "happiness": "> 80",
+        "trust": "> 50"
+      },
+      "ending": "Your focus on the well-being of the citizens, especially the marginalized, has earned you their unwavering loyalty and affection. While your choices didn’t lead to substantial economic growth, your people are happier and more trusting of your leadership than ever. You may not have amassed great wealth for the country, but you’ve built a society where people feel heard, valued, and cared for."
+    },
+    {
+      "title": "The Unpopular President",
+      "condition": {
+        "wealth": "> 50 && wealth < 150",
+        "happiness": "< 50",
+        "trust": "< 50"
+      },
+      "ending": "Despite your attempts to improve the country’s wealth, your leadership has been rejected by the people. Unpopular policies, corruption scandals, and a lack of empathy have created a toxic political climate. While you’ve made some financial gains, you’ve alienated the majority of your citizens. Your time in office will be remembered as a turbulent period with little regard for the welfare of the people."
+    },
+    {
+      "title": "The Radical Leader",
+      "condition": {
+        "wealth": "> 150",
+        "happiness": "> 80",
+        "trust": "< 50"
+      },
+      "ending": "Under your leadership, the country has thrived economically, and the public’s quality of life has improved dramatically. However, your bold decisions and radical policies have caused mistrust among the political elites and other influential groups. Your presidency will be marked by the tension between your great success in creating wealth and the underlying distrust you faced from both your allies and adversaries. You may have won the battle, but at a high cost to your political capital."
+    }
+  ]
+}
