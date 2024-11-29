@@ -13,15 +13,16 @@ document.getElementById('governor-btn').addEventListener('click', () => startGam
 document.getElementById('businessman-btn').addEventListener('click', () => startGame('businessman'));
 
 document.getElementById('next-month-btn').addEventListener('click', () => {
-    turnCount++;  // Increment the turn count
-    currentMonth += 6;  // Increase the month by 6 for each turn
-    
     if (turnCount < 8) {  // If there are turns remaining
-        currentScenarioIndex++;
-        if (currentScenarioIndex < scenarios.length) {
-            showScenario();
-        } else {
-            endGame('Game Over! You\'ve finished 8 turns.');
+        turnCount++;  // Increment the turn count
+        currentMonth += 6;  // Increase the month by 6 for each turn
+        if (turnCount < 8) {  // Continue to the next scenario
+            currentScenarioIndex++;
+            if (currentScenarioIndex < scenarios.length) {
+                showScenario();
+            } else {
+                endGame('Game Over! You\'ve finished 8 turns.');
+            }
         }
     } else {
         endGame('Game Over! You\'ve reached the maximum number of turns (8).');
