@@ -52,36 +52,172 @@
       ]
     },
     {
-      "text": "Your marketing team has produced an ad campaign that lacks gender diversity. How do you respond?",
+      "text": "Your company is struggling financially. What drastic measure do you take?",
       "options": [
         {
-          "text": "Revamp the campaign to include diverse gender representations (wealth -5, happiness +10)",
-          "effects": { "wealth": -5, "happiness": 10 }
+          "text": "Lay off a large portion of the workforce (wealth +30, happiness -20)",
+          "effects": { "wealth": 30, "happiness": -20 }
         },
         {
-          "text": "Keep the current campaign, focusing on profitability (wealth +10, happiness -5)",
-          "effects": { "wealth": 10, "happiness": -5 }
+          "text": "Cut executive bonuses and reduce operational costs (wealth +10, happiness -10)",
+          "effects": { "wealth": 10, "happiness": -10 }
         },
         {
-          "text": "Introduce a gender-inclusive campaign for a specific market (wealth -10, happiness +5)",
+          "text": "Invest heavily in marketing and expansion (wealth -20, happiness +5)",
+          "effects": { "wealth": -20, "happiness": 5 }
+        }
+      ]
+    },
+    {
+      "text": "A key competitor is offering cheaper products by cutting corners on quality. What do you do?",
+      "options": [
+        {
+          "text": "Cut prices to compete, even if it means sacrificing quality (wealth +15, happiness -10)",
+          "effects": { "wealth": 15, "happiness": -10 }
+        },
+        {
+          "text": "Continue focusing on quality and innovation, even if it means higher prices (wealth -5, happiness +15)",
+          "effects": { "wealth": -5, "happiness": 15 }
+        },
+        {
+          "text": "Attempt to differentiate through customer service (wealth -10, happiness +5)",
           "effects": { "wealth": -10, "happiness": 5 }
         }
       ]
     },
     {
-      "text": "You have the opportunity to invest in a women-led startup. How do you proceed?",
+      "text": "There is a push to implement more green initiatives in your company. How do you respond?",
       "options": [
         {
-          "text": "Invest heavily and support the startup (wealth -20, happiness +15)",
+          "text": "Invest in sustainable practices, even if it costs more (wealth -15, happiness +20)",
+          "effects": { "wealth": -15, "happiness": 20 }
+        },
+        {
+          "text": "Incorporate some green initiatives, but focus on profitability (wealth -5, happiness +10)",
+          "effects": { "wealth": -5, "happiness": 10 }
+        },
+        {
+          "text": "Ignore the green initiatives and maintain business as usual (wealth +10, happiness -5)",
+          "effects": { "wealth": 10, "happiness": -5 }
+        }
+      ]
+    },
+    {
+      "text": "Your company is facing increasing scrutiny over its environmental impact. What is your course of action?",
+      "options": [
+        {
+          "text": "Implement full transparency and change operations (wealth -20, happiness +15)",
           "effects": { "wealth": -20, "happiness": 15 }
         },
         {
-          "text": "Make a small investment and mentor the startup (wealth -10, happiness +10)",
+          "text": "Introduce small improvements while continuing operations as normal (wealth -10, happiness +5)",
+          "effects": { "wealth": -10, "happiness": 5 }
+        },
+        {
+          "text": "Maintain the current operations and ignore the scrutiny (wealth +15, happiness -10)",
+          "effects": { "wealth": 15, "happiness": -10 }
+        }
+      ]
+    },
+    {
+      "text": "A large section of your company’s workforce is pushing for unionization. How do you handle this?",
+      "options": [
+        {
+          "text": "Allow the workers to unionize and negotiate (wealth -10, happiness +10)",
           "effects": { "wealth": -10, "happiness": 10 }
         },
         {
-          "text": "Choose not to invest, preferring safer investments (wealth +10, happiness -5)",
+          "text": "Reject unionization and attempt to break up the movement (wealth +10, happiness -15)",
+          "effects": { "wealth": 10, "happiness": -15 }
+        },
+        {
+          "text": "Offer better employee benefits and incentives without unionization (wealth -5, happiness +20)",
+          "effects": { "wealth": -5, "happiness": 20 }
+        }
+      ]
+    },
+    {
+      "text": "You are considering expanding your business into a new international market, but the regulations are uncertain. What do you do?",
+      "options": [
+        {
+          "text": "Proceed with the expansion despite the risks (wealth +15, happiness -10)",
+          "effects": { "wealth": 15, "happiness": -10 }
+        },
+        {
+          "text": "Delay expansion until regulations are clearer (wealth -5, happiness +5)",
+          "effects": { "wealth": -5, "happiness": 5 }
+        },
+        {
+          "text": "Cancel the expansion and focus on your current market (wealth +10, happiness +5)",
+          "effects": { "wealth": 10, "happiness": 5 }
+        }
+      ]
+    },
+    {
+      "text": "The government introduces new taxes on businesses. What do you do?",
+      "options": [
+        {
+          "text": "Raise prices to offset the new taxes (wealth +5, happiness -10)",
+          "effects": { "wealth": 5, "happiness": -10 }
+        },
+        {
+          "text": "Cut employee benefits and wages to maintain profit margins (wealth +15, happiness -20)",
+          "effects": { "wealth": 15, "happiness": -20 }
+        },
+        {
+          "text": "Absorb the costs and maintain current prices (wealth -10, happiness +5)",
+          "effects": { "wealth": -10, "happiness": 5 }
+        }
+      ]
+    },
+    {
+      "text": "Your company is being asked to address the increasing wealth inequality in the community. How do you respond?",
+      "options": [
+        {
+          "text": "Increase employee salaries and offer more benefits (wealth -20, happiness +15)",
+          "effects": { "wealth": -20, "happiness": 15 }
+        },
+        {
+          "text": "Create more job opportunities without increasing wages (wealth +10, happiness +5)",
+          "effects": { "wealth": 10, "happiness": 5 }
+        },
+        {
+          "text": "Do nothing and focus on maximizing profits (wealth +25, happiness -15)",
+          "effects": { "wealth": 25, "happiness": -15 }
+        }
+      ]
+    },
+    {
+      "text": "There is an opportunity to merge with a larger company, but it may result in job cuts. What do you do?",
+      "options": [
+        {
+          "text": "Go ahead with the merger for growth (wealth +30, happiness -20)",
+          "effects": { "wealth": 30, "happiness": -20 }
+        },
+        {
+          "text": "Refuse the merger and focus on growing the company independently (wealth +10, happiness +5)",
+          "effects": { "wealth": 10, "happiness": 5 }
+        },
+        {
+          "text": "Offer voluntary severance packages to employees before the merger (wealth +20, happiness -10)",
+          "effects": { "wealth": 20, "happiness": -10 }
+        }
+      ]
+    },
+    {
+      "text": "Your company has been accused of exploiting workers in developing countries. What do you do?",
+      "options": [
+        {
+          "text": "Address the issue and improve working conditions (wealth -10, happiness +20)",
+          "effects": { "wealth": -10, "happiness": 20 }
+        },
+        {
+          "text": "Pay a fine and continue with current practices (wealth +10, happiness -5)",
           "effects": { "wealth": 10, "happiness": -5 }
+        },
+        {
+          "text": "Deny the accusations and continue as usual (wealth +15, happiness -10)",
+          "effects": { "wealth": 15, "happiness": -10 }
         }
       ]
     }
