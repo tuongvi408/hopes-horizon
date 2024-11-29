@@ -1,43 +1,93 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f0f4f8;
     color: #333;
-    text-align: center;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-#game {
-    max-width: 600px;
+#game-container {
+    max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-button {
-    margin: 5px;
-    padding: 10px 20px;
-    border: none;
-    background-color: #4caf50;
-    color: white;
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#role-selection button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
     cursor: pointer;
-    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
     border-radius: 5px;
 }
 
-button:hover {
+#role-selection button:hover {
     background-color: #45a049;
 }
 
-#metrics, #timeline {
-    margin-top: 20px;
+#gameplay {
+    text-align: center;
 }
 
-#scene {
-    margin-top: 20px;
+#metrics p {
+    font-size: 1.2rem;
+    margin: 5px 0;
 }
 
-#options button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 15px;
-    font-size: 14px;
+#scenario {
+    margin: 20px 0;
+    font-size: 1.4rem;
+}
+
+#options .option-btn {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#options .option-btn:hover {
+    background-color: #0056b3;
+}
+
+#next-month-btn {
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-month-btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
 }

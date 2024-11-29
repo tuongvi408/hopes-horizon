@@ -7,34 +7,39 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="game">
-        <h1>Hope's Horizon</h1>
-        <div id="intro">
-            <p>Select your role:</p>
-            <button onclick="startGame('president')">President</button>
-            <button onclick="startGame('governor')">City Governor</button>
-            <button onclick="startGame('villager')">Community Member</button>
-        </div>
-        <div id="gameplay" style="display: none;">
-            <div id="timeline">
-                <h3>Timeline</h3>
-                <p id="month">Month: 1</p>
-            </div>
+    <div id="game-container">
+        <header>
+            <h1>Hope's Horizon</h1>
+            <p>Select your role to begin the game!</p>
+        </header>
+
+        <section id="role-selection">
+            <button id="president-btn">Play as President</button>
+            <button id="governor-btn">Play as Governor</button>
+            <button id="businessman-btn">Play as Businessman</button>
+        </section>
+
+        <section id="gameplay" style="display:none;">
+            <h2 id="role-name"></h2>
             <div id="metrics">
-                <h3>Metrics</h3>
-                <p>Trust: <span id="trust">50</span></p>
-                <p>Economy: <span id="economy">50</span></p>
-                <p>Public Happiness: <span id="happiness">50</span></p>
-                <p>National Debt: <span id="debt">10</span></p>
-                <p id="role-specific-metrics"></p>
+                <p>Wealth: $<span id="wealth">0</span></p>
+                <p>Happiness: <span id="happiness">0</span></p>
+                <p>Trust: <span id="trust">0</span></p>
             </div>
-            <div id="scene">
-                <p id="scenario-text"></p>
-                <div id="options"></div>
+            <div id="scenario"></div>
+            <div id="options">
+                <button class="option-btn" data-choice="0">Choice 1</button>
+                <button class="option-btn" data-choice="1">Choice 2</button>
+                <button class="option-btn" data-choice="2">Choice 3</button>
             </div>
-            <button onclick="progressMonth()">Next Month</button>
-        </div>
+            <button id="next-month-btn" style="display:none;">Next Month</button>
+        </section>
+
+        <footer>
+            <p id="game-status"></p>
+        </footer>
     </div>
-    <script src="script.js"></script>
+
+    <script src="game.js"></script>
 </body>
 </html>
