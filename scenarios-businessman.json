@@ -1,0 +1,89 @@
+{
+  "businessman": [
+    {
+      "text": "A report shows that women in your company are earning less than their male counterparts. What do you do?",
+      "options": [
+        {
+          "text": "Equalize pay immediately (wealth -5, happiness +10)",
+          "effects": { "wealth": -5, "happiness": 10 }
+        },
+        {
+          "text": "Gradually raise women’s pay over the next few years (wealth -2, happiness +5)",
+          "effects": { "wealth": -2, "happiness": 5 }
+        },
+        {
+          "text": "Ignore the issue, focusing on business growth (wealth +10, happiness -5)",
+          "effects": { "wealth": 10, "happiness": -5 }
+        }
+      ]
+    },
+    {
+      "text": "There is pressure to hire more women in leadership roles in your company. What do you do?",
+      "options": [
+        {
+          "text": "Promote women to leadership positions (wealth -5, happiness +10)",
+          "effects": { "wealth": -5, "happiness": 10 }
+        },
+        {
+          "text": "Wait for more qualified female candidates (wealth +10, happiness +5)",
+          "effects": { "wealth": 10, "happiness": 5 }
+        },
+        {
+          "text": "Stick to your current male-dominated leadership team (wealth +15, happiness -10)",
+          "effects": { "wealth": 15, "happiness": -10 }
+        }
+      ]
+    },
+    {
+      "text": "Your employees, especially women, are asking for better parental leave policies. What do you do?",
+      "options": [
+        {
+          "text": "Implement generous paid parental leave (wealth -15, happiness +20)",
+          "effects": { "wealth": -15, "happiness": 20 }
+        },
+        {
+          "text": "Offer flexible work hours but no paid leave (wealth -5, happiness +10)",
+          "effects": { "wealth": -5, "happiness": 10 }
+        },
+        {
+          "text": "Keep parental leave as is (wealth +10, happiness -5)",
+          "effects": { "wealth": 10, "happiness": -5 }
+        }
+      ]
+    },
+    {
+      "text": "Your marketing team has produced an ad campaign that lacks gender diversity. How do you respond?",
+      "options": [
+        {
+          "text": "Revamp the campaign to include diverse gender representations (wealth -5, happiness +10)",
+          "effects": { "wealth": -5, "happiness": 10 }
+        },
+        {
+          "text": "Keep the current campaign, focusing on profitability (wealth +10, happiness -5)",
+          "effects": { "wealth": 10, "happiness": -5 }
+        },
+        {
+          "text": "Introduce a gender-inclusive campaign for a specific market (wealth -10, happiness +5)",
+          "effects": { "wealth": -10, "happiness": 5 }
+        }
+      ]
+    },
+    {
+      "text": "You have the opportunity to invest in a women-led startup. How do you proceed?",
+      "options": [
+        {
+          "text": "Invest heavily and support the startup (wealth -20, happiness +15)",
+          "effects": { "wealth": -20, "happiness": 15 }
+        },
+        {
+          "text": "Make a small investment and mentor the startup (wealth -10, happiness +10)",
+          "effects": { "wealth": -10, "happiness": 10 }
+        },
+        {
+          "text": "Choose not to invest, preferring safer investments (wealth +10, happiness -5)",
+          "effects": { "wealth": 10, "happiness": -5 }
+        }
+      ]
+    }
+  ]
+}
