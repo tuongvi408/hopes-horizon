@@ -1,0 +1,89 @@
+{
+  "governor": [
+    {
+      "text": "Your city’s largest employer is under investigation for gender discrimination in hiring. What do you do?",
+      "options": [
+        {
+          "text": "Enforce equal employment practices across all sectors (wealth -10, happiness +10, trust +15)",
+          "effects": { "wealth": -10, "happiness": 10, "trust": 15 }
+        },
+        {
+          "text": "Provide incentives for companies to adopt equal employment practices (wealth -5, happiness +5, trust +5)",
+          "effects": { "wealth": -5, "happiness": 5, "trust": 5 }
+        },
+        {
+          "text": "Allow businesses to self-regulate (wealth +15, happiness -10, trust -5)",
+          "effects": { "wealth": 15, "happiness": -10, "trust": -5 }
+        }
+      ]
+    },
+    {
+      "text": "Your city is seeing a rise in gender-based violence cases. What do you do?",
+      "options": [
+        {
+          "text": "Increase funding for support services (wealth -10, happiness +15, trust +10)",
+          "effects": { "wealth": -10, "happiness": 15, "trust": 10 }
+        },
+        {
+          "text": "Partner with NGOs to raise awareness (wealth -5, happiness +10, trust +5)",
+          "effects": { "wealth": -5, "happiness": 10, "trust": 5 }
+        },
+        {
+          "text": "Do nothing and wait for national laws (wealth +10, happiness -10, trust -5)",
+          "effects": { "wealth": 10, "happiness": -10, "trust": -5 }
+        }
+      ]
+    },
+    {
+      "text": "Your city has been criticized for not having enough women in leadership positions. How do you handle it?",
+      "options": [
+        {
+          "text": "Mandate quotas for women in leadership (wealth -5, happiness +10, trust +15)",
+          "effects": { "wealth": -5, "happiness": 10, "trust": 15 }
+        },
+        {
+          "text": "Encourage voluntary participation (wealth +5, happiness +5, trust +5)",
+          "effects": { "wealth": 5, "happiness": 5, "trust": 5 }
+        },
+        {
+          "text": "Maintain the current leadership system (wealth +10, happiness -10, trust -5)",
+          "effects": { "wealth": 10, "happiness": -10, "trust": -5 }
+        }
+      ]
+    },
+    {
+      "text": "There is increasing pressure to provide better access to reproductive health services for women in your region. What do you do?",
+      "options": [
+        {
+          "text": "Increase funding for reproductive health services (wealth -5, happiness +15, trust +10)",
+          "effects": { "wealth": -5, "happiness": 15, "trust": 10 }
+        },
+        {
+          "text": "Allow private clinics to take the lead (wealth +10, happiness -5, trust -5)",
+          "effects": { "wealth": 10, "happiness": -5, "trust": -5 }
+        },
+        {
+          "text": "Oppose increased access due to budget constraints (wealth +20, happiness -15, trust -10)",
+          "effects": { "wealth": 20, "happiness": -15, "trust": -10 }
+        }
+      ]
+    },
+    {
+      "text": "There is a call for gender equality laws to be passed in your city. How do you respond?",
+      "options": [
+        {
+          "text": "Support gender equality laws (wealth -10, happiness +20, trust +15)",
+          "effects": { "wealth": -10, "happiness": 20, "trust": 15 }
+        },
+        {
+          "text": "Delay action on the issue (wealth +5, happiness +5, trust +5)",
+          "effects": { "wealth": 5, "happiness": 5, "trust": 5 }
+        },
+        {
+          "text": "Oppose the laws, stating that they will harm local businesses (wealth +15, happiness -10, trust -5)",
+          "effects": { "wealth": 15, "happiness": -10, "trust": -5 }
+        }
+      ]
+    }
+  ]
+}

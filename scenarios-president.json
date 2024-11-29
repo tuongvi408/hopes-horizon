@@ -1,0 +1,89 @@
+{
+  "president": [
+    {
+      "text": "A report reveals a significant gender pay gap in your government departments. How do you address it?",
+      "options": [
+        {
+          "text": "Implement equal pay laws across all departments (wealth -10, happiness +15, trust +10)",
+          "effects": { "wealth": -10, "happiness": 15, "trust": 10 }
+        },
+        {
+          "text": "Ignore the report and keep the status quo (wealth +10, happiness -10, trust -5)",
+          "effects": { "wealth": 10, "happiness": -10, "trust": -5 }
+        },
+        {
+          "text": "Establish a task force to investigate (wealth -5, happiness +5, trust +5)",
+          "effects": { "wealth": -5, "happiness": 5, "trust": 5 }
+        }
+      ]
+    },
+    {
+      "text": "There is growing pressure to increase the number of women in leadership positions within the government. What do you do?",
+      "options": [
+        {
+          "text": "Mandate quotas for women in senior government roles (wealth -5, happiness +10, trust +15)",
+          "effects": { "wealth": -5, "happiness": 10, "trust": 15 }
+        },
+        {
+          "text": "Encourage voluntary changes without enforcing quotas (wealth +5, happiness +5, trust +5)",
+          "effects": { "wealth": 5, "happiness": 5, "trust": 5 }
+        },
+        {
+          "text": "Reject the initiative and maintain the current system (wealth +10, happiness -10, trust -5)",
+          "effects": { "wealth": 10, "happiness": -10, "trust": -5 }
+        }
+      ]
+    },
+    {
+      "text": "A local movement demands better access to reproductive health services for women. How do you respond?",
+      "options": [
+        {
+          "text": "Provide government funding for women's health services (wealth -5, happiness +15, trust +10)",
+          "effects": { "wealth": -5, "happiness": 15, "trust": 10 }
+        },
+        {
+          "text": "Allow private clinics to take the lead on providing these services (wealth +10, happiness -5, trust -5)",
+          "effects": { "wealth": 10, "happiness": -5, "trust": -5 }
+        },
+        {
+          "text": "Oppose increased access, citing budget constraints (wealth +20, happiness -15, trust -10)",
+          "effects": { "wealth": 20, "happiness": -15, "trust": -10 }
+        }
+      ]
+    },
+    {
+      "text": "Reports show that girls' education is underfunded in rural areas. What is your plan?",
+      "options": [
+        {
+          "text": "Increase funding for girls' education in rural areas (wealth -15, happiness +20, trust +10)",
+          "effects": { "wealth": -15, "happiness": 20, "trust": 10 }
+        },
+        {
+          "text": "Encourage private organizations to address the issue (wealth +5, happiness +5, trust +5)",
+          "effects": { "wealth": 5, "happiness": 5, "trust": 5 }
+        },
+        {
+          "text": "Delay funding due to other priorities (wealth +10, happiness -5, trust -5)",
+          "effects": { "wealth": 10, "happiness": -5, "trust": -5 }
+        }
+      ]
+    },
+    {
+      "text": "A major corporation in the country has been found guilty of gender discrimination in hiring. How do you handle it?",
+      "options": [
+        {
+          "text": "Implement strict laws against gender discrimination in hiring (wealth -10, happiness +10, trust +15)",
+          "effects": { "wealth": -10, "happiness": 10, "trust": 15 }
+        },
+        {
+          "text": "Offer incentives for companies to voluntarily adopt gender-inclusive hiring practices (wealth -5, happiness +5, trust +10)",
+          "effects": { "wealth": -5, "happiness": 5, "trust": 10 }
+        },
+        {
+          "text": "Let companies self-regulate and resist any new laws (wealth +15, happiness -10, trust -5)",
+          "effects": { "wealth": 15, "happiness": -10, "trust": -5 }
+        }
+      ]
+    }
+  ]
+}
