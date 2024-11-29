@@ -1,43 +1,38 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
-    color: #333;
-    text-align: center;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-#game {
-    max-width: 600px;
-    margin: 0 auto;
+#game-container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 button {
-    margin: 5px;
     padding: 10px 20px;
-    border: none;
-    background-color: #4caf50;
-    color: white;
-    cursor: pointer;
+    margin: 10px;
     font-size: 16px;
-    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 button:hover {
     background-color: #45a049;
 }
 
-#metrics, #timeline {
+#metrics {
     margin-top: 20px;
 }
 
-#scene {
-    margin-top: 20px;
+#decisions button {
+    margin: 5px;
 }
 
-#options button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px 15px;
-    font-size: 14px;
+#end-screen {
+    text-align: center;
 }

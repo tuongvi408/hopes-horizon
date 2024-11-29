@@ -1,4 +1,5 @@
 let trust, wealth, happiness, role, turns, maxTurns;
+<<<<<<< Updated upstream
 let scenarios = [];  // To store scenarios loaded from the JSON file
 
 // Load the JSON files based on the role
@@ -15,6 +16,9 @@ function loadScenarios() {
 }
 
 // Start the game by setting up the role and initializing metrics
+=======
+
+>>>>>>> Stashed changes
 function startGame(selectedRole) {
     role = selectedRole;
     trust = 50;  // Default starting values
@@ -27,17 +31,26 @@ function startGame(selectedRole) {
     document.getElementById('gameplay').style.display = 'block';
 
     updateMetrics();
+<<<<<<< Updated upstream
     loadScenarios();  // Load the relevant scenarios for the selected role
 }
 
 // Update the displayed metrics (Trust, Wealth, Happiness)
+=======
+    nextTurn();
+}
+
+>>>>>>> Stashed changes
 function updateMetrics() {
     document.getElementById('trust').textContent = trust;
     document.getElementById('wealth').textContent = wealth;
     document.getElementById('happiness').textContent = happiness;
 }
 
+<<<<<<< Updated upstream
 // Start the next turn by selecting a scenario and showing the options
+=======
+>>>>>>> Stashed changes
 function nextTurn() {
     if (turns >= maxTurns) {
         endGame();
@@ -45,6 +58,7 @@ function nextTurn() {
     }
 
     turns++;
+<<<<<<< Updated upstream
     let scenario = getRandomScenario();
     document.getElementById('scenario').textContent = scenario.text;
 
@@ -71,15 +85,96 @@ function makeDecision(option) {
     wealth += effects.wealth;
     happiness += effects.happiness;
     trust += effects.trust;
+=======
+    let scenario = generateScenario();
+    document.getElementById('scenario').textContent = scenario.text;
+    // Update decision buttons
+    for (let i = 1; i <= 3; i++) {
+        document.getElementById(`decision${i}`).textContent = scenario.options[i-1];
+    }
+}
+
+function generateScenario() {
+    const scenarios = [
+        {
+            text: "A national crisis has occurred. What will you do?",
+            options: [
+                "Increase military spending (Wealth +5%, Happiness -5%, Trust -10%)",
+                "Cut taxes to boost the economy (Wealth +10%, Happiness -5%, Trust +5%)",
+                "Implement social welfare programs (Wealth -10%, Happiness +10%, Trust +10%)"
+            ]
+        },
+        {
+            text: "A new business opportunity arises. What is your decision?",
+            options: [
+                "Invest in the business for growth (Wealth +20%, Happiness -5%, Trust +5%)",
+                "Take a conservative approach (Wealth +5%, Happiness +5%, Trust +5%)",
+                "Ignore the opportunity and focus on social issues (Wealth -5%, Happiness +10%, Trust +10%)"
+            ]
+        },
+        {
+            text: "How will you address the education system?",
+            options: [
+                "Increase funding for education (Wealth -15%, Happiness +15%, Trust +10%)",
+                "Cut funding to reduce the budget deficit (Wealth +10%, Happiness -5%, Trust -5%)",
+                "Privatize education (Wealth +20%, Happiness -10%, Trust -15%)"
+            ]
+        }
+    ];
+
+    return scenarios[Math.floor(Math.random() * scenarios.length)];
+}
+
+function makeDecision(optionIndex) {
+    let scenario = generateScenario();
+    switch (optionIndex) {
+        case 1:
+            applyScenarioImpact(scenario.options[0]);
+            break;
+        case 2:
+            applyScenarioImpact(scenario.options[1]);
+            break;
+        case 3:
+            applyScenarioImpact(scenario.options[2]);
+            break;
+    }
+>>>>>>> Stashed changes
 
     updateMetrics();
     nextTurn();
 }
 
+<<<<<<< Updated upstream
 // End the game and display the result
 function endGame() {
     let message = "";
 
+=======
+function applyScenarioImpact(option) {
+    if (option.includes("Wealth +")) {
+        wealth += parseInt(option.split('Wealth +')[1].split('%')[0]);
+    }
+    if (option.includes("Happiness +")) {
+        happiness += parseInt(option.split('Happiness +')[1].split('%')[0]);
+    }
+    if (option.includes("Trust +")) {
+        trust += parseInt(option.split('Trust +')[1].split('%')[0]);
+    }
+    if (option.includes("Wealth -")) {
+        wealth -= parseInt(option.split('Wealth -')[1].split('%')[0]);
+    }
+    if (option.includes("Happiness -")) {
+        happiness -= parseInt(option.split('Happiness -')[1].split('%')[0]);
+    }
+    if (option.includes("Trust -")) {
+        trust -= parseInt(option.split('Trust -')[1].split('%')[0]);
+    }
+}
+
+function endGame() {
+    let message = "";
+    
+>>>>>>> Stashed changes
     if (role === "President" && trust > 70 && happiness > 60) {
         message = "You were re-elected successfully!";
     } else if (role === "Governor" && trust > 50 && happiness > 60) {
@@ -95,7 +190,10 @@ function endGame() {
     document.getElementById('end-message').textContent = message;
 }
 
+<<<<<<< Updated upstream
 // Reset the game for a new playthrough
+=======
+>>>>>>> Stashed changes
 function resetGame() {
     location.reload();
 }
