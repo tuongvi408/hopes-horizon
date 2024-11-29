@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Leadership</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="role-selection">
+            <h1>Choose Your Role</h1>
+            <button onclick="startGame('President')">President</button>
+            <button onclick="startGame('Governor')">Governor</button>
+            <button onclick="startGame('Businessman')">Businessman</button>
+        </div>
+
+        <div id="gameplay" style="display: none;">
+            <h2>Game in Progress</h2>
+            <div id="metrics">
+                <p>Trust: <span id="trust"></span>%</p>
+                <p>Wealth: $<span id="wealth"></span></p>
+                <p>Happiness: <span id="happiness"></span>%</p>
+            </div>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+            <div id="scene">
+                <p id="scenario-text"></p>
+                <div id="options"></div>
+=======
+            <div id="scenario"></div>
+            <div id="decisions">
+                <button id="decision1">Decision 1</button>
+                <button id="decision2">Decision 2</button>
+                <button id="decision3">Decision 3</button>
+>>>>>>> Stashed changes
+=======
+            <div id="scenario"></div>
+            <div id="decisions">
+                <button onclick="makeDecision(1)">Decision 1</button>
+                <button onclick="makeDecision(2)">Decision 2</button>
+                <button onclick="makeDecision(3)">Decision 3</button>
+>>>>>>> Stashed changes
+            </div>
+        </div>
+        
+        <div id="end-screen" style="display: none;">
+            <h2>Game Over</h2>
+            <p id="end-message"></p>
+            <button onclick="resetGame()">Play Again</button>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
