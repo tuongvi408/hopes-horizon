@@ -73,8 +73,8 @@ function showScenario() {
         document.getElementById('options').style.display = 'block';
     }
 
-    // Update the current month display
-    document.getElementById('current-month').textContent = `Month ${currentMonth}`;
+    // Update the current month display (no "Month" label, just the number)
+    document.getElementById('current-month').textContent = currentMonth;
 }
 
 function handleChoice(effects) {
@@ -86,7 +86,7 @@ function handleChoice(effects) {
 }
 
 function updateMetrics() {
-    document.getElementById('wealth').textContent = wealth;
+    document.getElementById('wealth').textContent = wealth;  // Display wealth without the "$" symbol
     document.getElementById('happiness').textContent = happiness;
     document.getElementById('trust').textContent = trust;
 }
