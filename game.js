@@ -1,9 +1,11 @@
 let currentRole = '';
 let currentScenarioIndex = 0;
 let wealth = 0;
-let happiness = 50; // Initial happiness set to 50
-let trust = 50; // Initial trust set to 50
+let happiness = 50;  // Initial happiness set to 50
+let trust = 50;  // Initial trust set to 50
 let scenarios = [];
+let turnCount = 0;  // Track the number of turns
+let currentMonth = 0;  // Start at Month 0
 
 // Add event listeners for each role selection
 document.getElementById('president-btn').addEventListener('click', () => startGame('president'));
@@ -11,11 +13,18 @@ document.getElementById('governor-btn').addEventListener('click', () => startGam
 document.getElementById('businessman-btn').addEventListener('click', () => startGame('businessman'));
 
 document.getElementById('next-month-btn').addEventListener('click', () => {
-    currentScenarioIndex++;
-    if (currentScenarioIndex < scenarios.length) {
-        showScenario();
+    turnCount++;  // Increment the turn count
+    currentMonth += 6;  // Increase the month by 6 for each turn
+    
+    if (turnCount < 8) {  // If there are turns remaining
+        currentScenarioIndex++;
+        if (currentScenarioIndex < scenarios.length) {
+            showScenario();
+        } else {
+            endGame('Game Over! You\'ve finished 8 turns.');
+        }
     } else {
-        endGame('Game Over! You\'ve finished 8 turns.');
+        endGame('Game Over! You\'ve reached the maximum number of turns (8).');
     }
 });
 
@@ -36,6 +45,8 @@ function loadScenarios(role) {
             wealth = 0;  // Reset wealth
             happiness = 50;  // Reset happiness
             trust = 50;  // Reset trust
+            turnCount = 0;  // Reset turn count
+            currentMonth = 0;  // Reset to Month 0
             updateMetrics();  // Update the metrics display
             showScenario();  // Show the first scenario
         })
@@ -61,6 +72,9 @@ function showScenario() {
         document.getElementById('next-month-btn').style.display = 'none';
         document.getElementById('options').style.display = 'block';
     }
+
+    // Update the current month display
+    document.getElementById('current-month').textContent = `Month ${currentMonth}`;
 }
 
 function handleChoice(effects) {
