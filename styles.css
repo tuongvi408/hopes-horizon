@@ -62,7 +62,7 @@ h1,h2, h3 {
 
 
 #game {
-    background-image: url('/public/bg.png');
+    background-image: url('public/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
