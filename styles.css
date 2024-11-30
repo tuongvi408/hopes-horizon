@@ -7,7 +7,9 @@ body {
 
 #home {
     background-image: url('public/welcome.png');
-    background-size: cover;
+    /* background-size: cover;  */
+    /* cover to have full screen*/
+    background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -22,7 +24,9 @@ h1,h2, h3 {
 
 #about {
     background-image: url('public/about.png');
-    background-size: cover;
+    /* background-size: cover;  */
+    /* cover to have full screen*/
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -32,7 +36,9 @@ h1,h2, h3 {
 
 #thanks {
     background-image: url('public/finalthanks.png');
-    background-size: cover;
+    /* background-size: cover;  */
+    /* cover to have full screen*/
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -80,7 +86,9 @@ h1,h2, h3 {
 }
 
 #ending {
-    background-size: cover;
+    /* background-size: cover;  */
+    /* cover to have full screen*/
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -109,6 +117,12 @@ h1,h2, h3 {
 
 .box {
     background-color: azure;
+    padding: 16px;
+    border-radius: 12px;
+}
+.endbox {
+    background-color: rgba(255,255,255,0.6);
+    /* opacity: .2; */
     padding: 16px;
     border-radius: 12px;
 }
